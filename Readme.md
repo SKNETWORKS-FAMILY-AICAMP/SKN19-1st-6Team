@@ -80,10 +80,10 @@
 
 ### **6️⃣ 요구사항 명세서**
 
-   <img src="./etc/요구사항1.png" width="500"/>
-   <img src="./etc/요구사항2.png" width="500"/>
-   <img src="./etc/요구사항3.png" width="500"/>
-   <img src="./etc/요구사항4.png" width="500"/>
+   <img src="./etc/요구사항1.png" width="1000"/>
+   <img src="./etc/요구사항2.png" width="1000"/>
+   <img src="./etc/요구사항3.png" width="1000"/>
+   <img src="./etc/요구사항4.png" width="1000"/>
 
 ### **7️⃣ 수행결과(테스트/시연 페이지)**
 
