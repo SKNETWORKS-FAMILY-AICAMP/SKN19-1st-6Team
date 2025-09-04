@@ -27,28 +27,19 @@
 - 프로젝트 필요성(배경)
     
     <img src="./etc/등록추이1.png" width="300"/>
+  
+    - 최근 친환경차 등록 수 증가 & 정부·지자체의 다양한 보조금 정책
+     
+    <img src="./etc/하이브리드.png" width="500"/>
+    <img src="./etc/전기.png" width="500"/>
+    <img src="./etc/수소.png" width="500"/>
     
-    - 최근 친환경차 등록 수 증가
-
-    정부·지자체의 다양한 보조금 정책
-
-    실 데이터로 확인 
-    
-    <img src="./etc/하이브리드.png" width="300"/>
-    <img src="./etc/전기.png" width="300"/>
-    <img src="./etc/수소.png" width="300"/>
-    
-    - 친환경 차량 비중 증가 > 관련 혜택 수요 증가 (예상)
-
-    *혜택을 크게 관심가질 보조금과 카드를 선정*
-
-    *특히, 혜택을 꼼꼼히 따지는 소비자*
-    
+    - 친환경 차량 비중 증가 > 관련 혜택 수요 증가 (예상)   
     → 위 정보를 근거하여, 소비자의 정보 탐색 비용을 줄이고 구매를 촉진할 필요성이 존재
     
 - 프로젝트 목표
 
-    친환경차 구매 잠재 고객의 정보 접근성 향상을 목표로, 데이터·시각화·혜택 정보 통합을 통해 소비자 중심의 서비스를 제공하는 것을 목표로 합니다.
+    친환경차 구매 잠재 고객의 정보 접근성 향상을 목표로, 데이터·시각화·혜택 정보 통합을 통해 소비자 중심의 서비스를 제공하는 것을 목표로 합니다!
 
     주요 목표 기능
 
@@ -81,31 +72,25 @@
 
 ### **4️⃣ WBS**
 
-<img src="./etc/WBS.png" alt="WBS" width="300"/>
+<img src="./etc/WBS.png" alt="WBS" width="800"/>
 
 ### **5️⃣ ERD** 
     
    <img src="./mysql/ERD1.png" alt="ERD1" width="300"/>
 
-   <img src="./mysql/ERD2.png" alt="ERD2" width="150"/>
-    
-   <img src="./mysql/ERD3.png" alt="ERD3" width="150"/>
- 
-   <img src="./mysql/ERD4.png" alt="ERD4" width="150"/>
-
 ### **6️⃣ 요구사항 명세서**
 
-   <img src="./etc/요구사항1.png" alt="요구사항1" width="300"/>
-   <img src="./etc/요구사항2.png" alt="요구사항2" width="300"/>
-   <img src="./etc/요구사항3.png" alt="요구사항3" width="300"/>
-   <img src="./etc/요구사항4.png" alt="요구사항4" width="300"/>
+   <img src="./etc/요구사항1.png" width="500"/>
+   <img src="./etc/요구사항2.png" width="500"/>
+   <img src="./etc/요구사항3.png" width="500"/>
+   <img src="./etc/요구사항4.png" width="500"/>
 
 ### **7️⃣ 수행결과(테스트/시연 페이지)**
 
-<img src="./etc/등록페이지.png" alt="요구사항1" width="300"/>
-<img src="./etc/보조금페이지.png" alt="요구사항1" width="300"/>
-<img src="./etc/카드페이지.png" alt="요구사항1" width="300"/>
-<img src="./etc/FAQ페이지.png" alt="요구사항1" width="300"/>
+<img src="./etc/등록페이지.png" width="1000"/>
+<img src="./etc/보조금페이지.png" width="1000"/>
+<img src="./etc/카드페이지.png" width="1000"/>
+<img src="./etc/FAQ페이지.png" width="1000"/>
 
 ### **8️⃣ 한 줄 회고**
 
@@ -119,7 +104,7 @@
     | 신&nbsp;지&nbsp;섭 | 보조금확인 페이지 구현을 중점적으로 담당하였습니다. 동적인 웹 페이지의 데이터를 크롤링해야했기에 Selenium브라우저를 이용하여 크롤링을 진행하였고 공통된 컬럼을 갖는 등록데이터와의 정규화를 진행하였습니다. |
 
 🔎 아쉬운점&개선점
-    
+
 - 섬세하게 다루지 못한 데이터가 있어 아쉬움 (차량 모델·카드 혜택 카테고리 세분화 필요)
 
 - 기한 내 작업계획·범위가 명확하지 못했던 점 → 프로젝트 관리 개선 필요
