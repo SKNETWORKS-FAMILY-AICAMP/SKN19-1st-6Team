@@ -14,54 +14,57 @@
 
 ### **2️⃣ 프로젝트 개요**
 
-- 프로젝트 명
+#### 프로젝트 명
 
     👉 친환경차 혜택 정보 통합 플랫폼
 
-- 프로젝트 소개
-    
+#### 프로젝트 소개
+
     친환경 차량에 관한 등록 데이터, 국가 보조금, 카드사 혜택 등을 한 곳에서 볼 수 있는 웹사이트를 제공합니다.
 
     이를 통해 소비자가 데이터 기반의 정보와 구매 시 및 구매 이후 혜택을 쉽게 확인할 수 있도록 돕습니다.
     
-- 프로젝트 필요성(배경)
+
+#### 프로젝트 필요성(배경)
     
-    <img src="./etc/등록추이1.png" width="300"/>
-  
-    - 최근 친환경차 등록 수 증가 & 정부·지자체의 다양한 보조금 정책
-     
-    <img src="./etc/하이브리드.png" width="500"/>
-    <img src="./etc/전기.png" width="500"/>
-    <img src="./etc/수소.png" width="500"/>
+<img src="./etc/등록추이1.png" width="300"/>
+
+- 최근 친환경차 등록 수 증가 & 정부·지자체의 다양한 보조금 정책
     
-    - 친환경 차량 비중 증가 > 관련 혜택 수요 증가 (예상)   
-    → 위 정보를 근거하여, 소비자의 정보 탐색 비용을 줄이고 구매를 촉진할 필요성이 존재
+<img src="./etc/하이브리드.png" width="500"/>
+<img src="./etc/전기.png" width="500"/>
+<img src="./etc/수소.png" width="500"/>
+
+- 친환경 차량 비중 증가 > 관련 혜택 수요 증가 (예상)   
+→ 위 정보를 근거하여, 소비자의 정보 탐색 비용을 줄이고 구매를 촉진할 필요성이 존재
     
-- 프로젝트 목표
+#### 프로젝트 목표
 
     친환경차 구매 잠재 고객의 정보 접근성 향상을 목표로, 데이터·시각화·혜택 정보 통합을 통해 소비자 중심의 서비스를 제공하는 것을 목표로 합니다!
 
-    주요 목표 기능
+#### 주요 목표 기능
 
-        📊 친환경차 중심의 연료별 차량 등록 현황 시각화
+    📊 친환경차 중심의 연료별 차량 등록 현황 시각화
 
-        💳 국가/지자체 보조금 및 신용카드 혜택 정보 안내
+    💳 국가/지자체 보조금 및 신용카드 혜택 정보 안내
 
-        ❓ 친환경차 FAQ 제공
+    ❓ 친환경차 FAQ 제공
 
-- 📂 프로젝트 구조
-    ```
-    project/
-    │── data_collection/   # 데이터 수집/적재 코드
-    │── mysql/             # DB 관련 코드 및 쿼리
-    │── streamlit/         # 화면 구현 코드
-    │── etc/               # WBS, 요구사항 문서 등
-    ```
+#### 📂 프로젝트 구조
+```
+project/
+│── data_collection/   # 데이터 수집/적재 코드
+│── mysql/             # DB 관련 코드 및 쿼리
+│── streamlit/         # 화면 구현 코드
+│── etc/               # WBS, 요구사항 문서 등
+```
 
-- 활용 데이터
-    - 웹 크롤링 기반 수집 데이터
-    - 정부/지자체 공개 데이터 (친환경차 등록현황, 보조금 정책)
-    - 카드사 홈페이지 (카드별 혜택)
+#### 활용 데이터
+- [친환경 자동차 등록 현황](https://stat.molit.go.kr/portal/cate/statMetaView.do?hRsId=58&hFormId=1244&hSelectId=1244&hPoint=00&hAppr=1&hDivEng=&oFileName=&rFileName=&midpath=&sFormId=1244&sStart=2024&sEnd=2024&sStyleNum=562&settingRadio=xlsx)
+- [국가 보조금](https://ev.or.kr/nportal/monitor/evMap.do#)
+- [카드 고릴라](https://www.card-gorilla.com/search/all?keyword=%EC%A0%84%EA%B8%B0%EC%B0%A8)
+- [현대FAQ](https://www.hyundai.com/kr/ko/faq.html)
+- [기아FAQ](https://www.kia.com/kr/customer-service/center/faq)
 
 ### **3️⃣ 기술 스택**
 
