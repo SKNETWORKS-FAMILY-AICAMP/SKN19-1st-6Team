@@ -85,29 +85,29 @@
 
 ### **5️⃣ ERD** 
     
-    <img src="./mysql/ERD1.png" alt="ERD1" width="300"/>
+   <img src="./mysql/ERD1.png" alt="ERD1" width="300"/>
 
-    <img src="./mysql/ERD2.png" alt="ERD2" width="150"/>
+   <img src="./mysql/ERD2.png" alt="ERD2" width="150"/>
     
-    <img src="./mysql/ERD3.png" alt="ERD3" width="150"/>
+   <img src="./mysql/ERD3.png" alt="ERD3" width="150"/>
  
-    <img src="./mysql/ERD4.png" alt="ERD4" width="150"/>
+   <img src="./mysql/ERD4.png" alt="ERD4" width="150"/>
 
 ### **6️⃣ 요구사항 명세서**
 
 - 시간되면 표로 작성 
 
-    <img src="./etc/요구사항1.png" alt="요구사항1" width="300"/>
-    <img src="./etc/요구사항2.png" alt="요구사항2" width="300"/>
-    <img src="./etc/요구사항3.png" alt="요구사항3" width="300"/>
-    <img src="./etc/요구사항4.png" alt="요구사항4" width="300"/>
+   <img src="./etc/요구사항1.png" alt="요구사항1" width="300"/>
+   <img src="./etc/요구사항2.png" alt="요구사항2" width="300"/>
+   <img src="./etc/요구사항3.png" alt="요구사항3" width="300"/>
+   <img src="./etc/요구사항4.png" alt="요구사항4" width="300"/>
 
 ### **7️⃣ 수행결과(테스트/시연 페이지)**
 
-	<img src="./etc/등록페이지.png" alt="요구사항1" width="300"/>
-	<img src="./etc/보조금페이지.png" alt="요구사항1" width="300"/>
-	<img src="./etc/카드페이지.png" alt="요구사항1" width="300"/>
-	<img src="./etc/FAQ페이지.png" alt="요구사항1" width="300"/>
+<img src="./etc/등록페이지.png" alt="요구사항1" width="300"/>
+<img src="./etc/보조금페이지.png" alt="요구사항1" width="300"/>
+<img src="./etc/카드페이지.png" alt="요구사항1" width="300"/>
+<img src="./etc/FAQ페이지.png" alt="요구사항1" width="300"/>
 
 ### **8️⃣ 한 줄 회고**
 
