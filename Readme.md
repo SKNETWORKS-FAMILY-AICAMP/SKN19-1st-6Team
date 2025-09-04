@@ -7,7 +7,7 @@
 
     | 이름  | 한줄소개             | GitHub                                  |
     | --- | --------------- | --------------------------------------- |
-    | 에코  | ##      | [🔗 GitHub](https://github.com/eco)     |
+    | 에코  | ## ¿? | [🔗 GitHub](https://github.com/distecter)     |
     | 디바  | ##       | [🔗 GitHub](https://github.com/diva)    |
     | 윈스턴 | ##      | [🔗 GitHub](https://github.com/winston) |
     | 솔저  | ## | [🔗 GitHub](https://github.com/soldier) |
