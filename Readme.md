@@ -7,7 +7,7 @@
 
     | 이름  | 한줄소개             | GitHub                                  |
     | --- | --------------- | --------------------------------------- |
-    | 이인재 | 열심히하겠습니다. | [🔗 GitHub](https://github.com/distecter) |
+    | 이인재 | 열심히하겠습니다 | [🔗 GitHub](https://github.com/distecter) |
     | 이승원 | 노력해볼게요 | [🔗 GitHub](https://github.com/seungwon-sw)    |
     | 김소희 | 나무보다 숲을 보는 분석하는 개발자 🤣      | [🔗 GitHub](https://github.com/sosodoit) |
     | 신지섭 | 항상 피곤한 개발자😪 | [🔗 GitHub](https://github.com/Melonmacaron) |
