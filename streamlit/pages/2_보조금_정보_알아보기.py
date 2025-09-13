@@ -34,6 +34,8 @@ def extract_driving_range(val):
 
 st.title("🌱 어떤 차에 관심이 있으신가요? 보조금 한번 확인해보세요 ~ 🤑")
 df = get_data("benefit")
+if df == None:
+    df = pd.read_csv("../../data_collection/benefit/totaldb_car.csv")
 df = df.replace("NULL", "정보없음")
 
 df["vehicle_subsidy"] = (
