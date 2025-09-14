@@ -12,7 +12,7 @@ st.markdown(f"<h1>{text1}{highlight}{text2}</h1>", unsafe_allow_html=True)
 
 df = get_data('car')
 if df == None:
-    df = pd.read_csv('../../data_collection/car/totaldb_car_regestration.csv')
+    df = pd.read_csv('../../data_collection/car/totaldb_car_registration.csv')
 
 # 첫 그래프 선택란의 옵션 선택
 options = ['연료별 차량 등록' , '지역별 친환경 차량 등록']
