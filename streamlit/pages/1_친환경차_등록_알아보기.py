@@ -15,7 +15,7 @@ if df == None:
     df = pd.read_csv('../../data_collection/car/totaldb_car_regestration.csv')
 
 # 첫 그래프 선택란의 옵션 선택
-options = ['연료 별 차량 등록' , '지역 별 친환경 차량 등록']
+options = ['연료별 차량 등록' , '지역별 친환경 차량 등록']
 graph = st.selectbox('어떤 그래프를 보고 싶으세요? (그래프 선택)', options)
 
 # 연월별, 연료별로 등록 대수 합산
@@ -28,7 +28,7 @@ df_line = (
 df_line["year_month"] = pd.to_datetime(df_line["year_month_code"].astype(str) + "01", format="%Y%m%d")
 df_line = df_line.sort_values("year_month")
 
-if graph == '연료 별 차량 등록':
+if graph == '연료별 차량 등록':
     # 1) fuel_group 고유값 가져오기
     fuel_options = df_line["fuel_group"].unique().tolist()
 
@@ -51,7 +51,7 @@ if graph == '연료 별 차량 등록':
         use_container_width=True,
     )
 
-if graph == '지역 별 친환경 차량 등록':
+if graph == '지역별 친환경 차량 등록':
     # 1) 지역 선택
     region_options = ['서울', '부산', '대구', '인천', '광주', '대전', '울산', '세종', 
                       '경기', '강원', '충북', '충남', '전북', '전남', '경북', '경남', '제주']
