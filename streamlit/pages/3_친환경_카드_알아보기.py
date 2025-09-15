@@ -2,12 +2,38 @@ from modules.db_handling import get_data
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from pathlib import Path
 
 st.set_page_config(layout="wide")
 st.title(
     "🌱 친환경차를 몰고계신가요? 몰고다닐계획이신가요? 관련된 카드 혜택을 확인해보세요😍"
 )
-df = get_data("card")
+
+# DB 없을시 파일로 대체
+try:
+    df = get_data("card")
+except Exception as e:
+
+    print(f"DB에서 데이터를 불러오지 못했습니다. 저장된 파일로 대체합니다. ({e})")    
+    csv_path = Path(__file__).parents[2] / "data_collection" / "card" / "data" / "totaldb_eco_card_summary.csv"
+    df = pd.read_csv(csv_path)
+    df = df.rename(
+    columns={
+        "카드명": "card_name",
+        "브랜드": "card_company_name",
+        "링크": "card_detail_url",
+        "카테고리": "card_type",
+        "내용": "card_detail",
+        "충전요금할인": "charging_discount_yn",
+        "교통할인": "transport_discount_yn",
+        "정비서비스": "maintenance_service_yn",
+        "자동차보험": "auto_insurance_yn",
+        "차량기타": "vehicle_etc_yn",
+        "전기차": "card_type_elec_yn",
+        "수소차": "card_type_suso_yn",
+        "이미지": "card_image",
+        }   
+    )
 
 # 사이드바 필터링
 st.sidebar.header("필터")
