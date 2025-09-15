@@ -71,10 +71,13 @@ project/
 
 ### **3️⃣ 기술 스택**
 
-- 협업: Notion, Git, GitHub
-- 데이터: MySQL, 크롤링(Selenium + BeautifulSoup), 데이터 정제/처리(Pandas)
-- 언어 & 환경: Python, VSCode
-- 프론트엔드: Streamlit
+- 협업: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" alt='Notion' width='20' /> Notion, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt='Git' width='20'/> Git, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt='GitHub' width='20'/> GitHub
+- 데이터: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt='MySQL' width='20'/> MySQL
+- 언어 & 환경: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt='Python' width='20'/> Python(version=3.12), <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt='VSCode' width='20' /> VSCode
+- 크롤: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" alt='Selenium' width='20'/> Selenium, <img src="https://img.shields.io/badge/-BeautifulSoup-green?logo=python&logoColor=white" height="20"/> BeautifulSoup
+- 데이터 정제/처리: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt='Pandas' width='20'/> Pandas
+- 프론트엔드: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg" alt='Streamlit' width='20'/> Streamlit
+
 
 ### **4️⃣ WBS**
 
